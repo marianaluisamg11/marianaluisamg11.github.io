@@ -1,0 +1,224 @@
+/* Mariana Luísa Brandao */
+*{ /*Reseta o padding e margin dos elementos*/
+  padding: 0;
+  margin: 0;
+}
+
+h1{ /*Estiliza os h1*/
+  font-size: 60px;
+  color: black;
+  font-family:monospace;
+  text-align: center;
+}
+
+body{/*Plano de fundo do corpo da pagina*/
+  background: url(../img/papeldeparede.jpg);
+}
+
+#menu{
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.7);
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#menu h1{
+  font-size: 45px;
+  margin: 10px;
+  color: black;
+  text-shadow: 2px 2px #1C1C1C;
+}
+#menu a{
+  text-decoration: none;
+  padding: 9px;
+  color:black;
+}
+/*links hover*/
+#menu a:hover{
+  color:pink;
+  background: #F5F5DC;
+}
+/*links active*/
+#menu a:active{
+  color:#535353;
+}
+.galeria-foto img{
+  margin: auto;
+  width: 650px;
+}
+#area-principal1{
+  width: 40%;
+  left: 25%;
+  margin: auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 6100px;
+}
+#area-principal2{
+  width: 40%;
+  left: 25%;
+  margin: auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 7500px;
+}
+#area-principal3{
+  text-align: center;
+  width: 40%;
+  left: 25%;
+  margin: auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 700px;
+}
+
+#area-principal3 h1{
+  font-size: 30px;
+}
+
+#area-principal4{
+  width: 40%;
+  left: 25%;
+  margin: auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 690px;
+}
+
+#area-principal5{
+  width: 40%;
+  left: 25%;
+  margin:auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 890px;
+}
+
+#area-principal5 img{
+  width: 450px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+#area-principal6{
+  width: 40%;
+  left: 25%;
+  margin: auto;
+  padding: 70px;
+  border-style: double;
+  background-color:rgba(255,182,193,0.9);
+  height: 650px;
+}
+
+#area-principal6 img{
+  border-radius: 10px;
+}
+
+#postado-por{
+  text-align:left;
+}
+
+#foto{
+  width: 200px;
+  height: 300px;
+  padding:0 200px;
+  transition: 3s;
+}
+
+#foto:hover{
+  width: 240px;
+  height: 340px;
+  transition: all 3s;
+}
+
+h2{
+  text-align: center;
+  font-family: serif;
+}
+
+fieldset{
+  padding: 5px;
+}
+
+#TOPO{
+  width: 10%;
+  margin-left: 250px;
+}
+
+#TOPO a{
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  background: white;
+  color: black;
+}
+
+.estante{
+  width: 640px;
+  height: 300;
+}
+
+#ps{
+  font-size: 20px;
+}
+
+table img{
+  width: 80px;
+  height: 80px;
+}
+
+table{
+  text-align: center;
+  margin: auto;
+}
+
+form{
+  background-color: rgba(218, 75, 105, 0.48);
+}
+
+input[type=submit]{
+  background: rgba(179, 65, 82, 0.86);
+  width: 90px;
+  height: 30px;
+  font-family:serif;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type=reset]{
+  background: rgba(179, 65, 82, 0.86);
+  width: 90px;
+  height: 30px;
+  font-family:serif;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type=number]{
+  width: 50px;
+}
+
+li a:hover{
+  color:pink;
+  background: #F5F5DC;
+}
+
+/*links active*/
+li a:active{
+  color:#535353;
+}
+
+li{
+  font-size: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
